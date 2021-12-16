@@ -18,7 +18,7 @@ The inputs of movie preferences are sensibily designed on the web page, and user
 
 <b>Specifications:</b> </br>
 
-Data Structure: </br>
+<b>Data Structure: </b> </br> 
 The basic data structure in this system is a tree. The 1000 pieces of movie data from IMDb could be organized into a tree based on whether the film fits the users' requirements. 
 
 <b>Packages: </b></br>
