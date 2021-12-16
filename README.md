@@ -4,7 +4,7 @@
 
 Welcome to Movie Recommendation System! Here we recommed you a movie you want from IMDb Top 1000 Movies, and its reviews as well! Have fun!
 
-The system will ask the users a hierarchical set of questions about if they have preferences and what their preferencess are, like:
+The system will ask the users a hierarchical set of questions about what their preferencess are, like:
 1. What type of certificate do you want for the movie, such as PG-13, R, M?
 2. What type of genre do you want for the movie, such as Drama, Sci-Fi, Comedy?
 3. What year do you want for the movie?
@@ -14,7 +14,7 @@ The system will ask the users a hierarchical set of questions about if they have
 7. How long do you want for the movie to last? 
 
 Instructions: </br>
-The inputs of movie requirements are sensibily designed on the web page, and users can leave blank for the fields that they have no requirements for. After the user inputs their requirements, they can click on the "submit" button. They can also click the "reset" button to input again. The system would then retrieve the link of a recommended movie that meets the users' needs the best, and provide the users with the one piece of most popular movie reviews also from IMDb so that they could be informed of the actual feedback and make further decisions based off of that. Users can always click on "switch" to change to another piece of review. There are 25 pieces of reviews for a movie at most, however, IMDb do not provide the reviews for some of the movies within their "Top 1000 Most Popular Movies" list.
+The inputs of movie preferences are sensibily designed on the web page, and users can leave blank for the fields that they have no preferences for. After the user inputs their preferences, they can click on the "submit" button. They can also click the "reset" button to input again. The system would then retrieve the link of a recommended movie that meets the users' needs the best, and provide the users with the one piece of most popular movie reviews also from IMDb so that they could be informed of the actual feedback and make further decisions based off of that. Users can always click on "switch" to change to another piece of review. There are 25 pieces of reviews for a movie at most, however, IMDb do not provide the reviews for some of the movies within their "Top 1000 Most Popular Movies" list.
 
 Specifications:
 
