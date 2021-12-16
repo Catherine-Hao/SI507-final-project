@@ -26,7 +26,7 @@ Packages:</br>
 The python packages for this system to work besides the built in packages include requests, flask, BeautifulSoup, webbrowser, pandas, etc.
 
 Codes:</br>
-The data-source repository: </br>
+In data-source repository: 
 - data_source.py: to implement data scraping for IMDb movies and accessing data using API Key for IMDb reviews;
 - movies.csv: the .csv file storing the [IMDB movies](https://www.imdb.com/search/title/?groups=top_1000&ref_=adv_prv) data;
 - movies.json: the .json file storing the [IMDB movies](https://www.imdb.com/search/title/?groups=top_1000&ref_=adv_prv) data;
