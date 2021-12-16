@@ -28,9 +28,9 @@ The python packages for this system to work besides the built in packages includ
 Codes:
 The data-source repository: 
   data_source.py: to implement data scraping for IMDb movies and accessing data using API Key for IMDb reviews;
-  movies.csv: the .csv file storing the IMDB movies data from https://www.imdb.com/search/title/?groups=top_1000&ref_=adv_prv;
-  movies.json: the .json file storing the IMDB movies data from https://www.imdb.com/search/title/?groups=top_1000&ref_=adv_prv;
-  reviews_example.json: an example of the .json file storing the IMDB reviews for Dune.
+  movies.csv: the .csv file storing the [IMDB movies](https://www.imdb.com/search/title/?groups=top_1000&ref_=adv_prv) data;
+  movies.json: the .json file storing the [IMDB movies](https://www.imdb.com/search/title/?groups=top_1000&ref_=adv_prv) data;
+  reviews_example.json: an example of the .json file storing the [IMDB reviews](https://imdb-api.com/en/API/Reviews/k_nm384tne/tt1160419) for Dune.
   
   
   
