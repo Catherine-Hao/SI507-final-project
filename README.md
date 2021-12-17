@@ -38,6 +38,12 @@ In data-source repository:
 - movies.json: the .json file storing the [IMDB movies](https://www.imdb.com/search/title/?groups=top_1000&ref_=adv_prv) data;
 - reviews_example.json: an example of the .json file storing the [IMDB reviews](https://imdb-api.com/en/API/Reviews/k_nm384tne/tt1160419) for Dune.
   
+In data-structure repository: 
+- main.py: the main .py file ruuning the movie recommendation system;
+- Recommending.py: the .py file that reads the json of the movie tree.
+- - In templates repository:
+- - -movie_recommendation.html: the html template for the front page of the movie recommendation system;
+- - -movie_response.html: the html template for the result page of the movie recommendation.
   
   
   
