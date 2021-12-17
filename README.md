@@ -2,9 +2,9 @@
 
 ### Catherine Hao  |  haorlin@umich.edu
 
-Welcome to Movie Recommendation System! Here we recommed you a movie you want from IMDb Top 1000 Movies, and its reviews as well! Have fun!
+Welcome to Movie Recommendation System! Here we recommed you a movie you want from IMDb Top 1000 Movies, and its reviews as well! Have fun! You can check the [demo](https://youtu.be/m7d1o3C2U7o) for further information.
 
-The system will ask the users a hierarchical set of questions about what their preferencess are, like:
+The system will ask the users a hierarchical set of questions about what their preferences are, like:
 - What type of certificate do you want for the movie, such as PG-13, R, M?
 - What type of genre do you want for the movie, such as Drama, Sci-Fi, Comedy?
 - What year do you want for the movie?
