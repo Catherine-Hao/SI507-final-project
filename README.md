@@ -40,8 +40,8 @@ In data-source repository:
 
 In data-structure repository: 
 - main.py: the main .py file ruuning the movie recommendation system;
-- Recommending.py: the .py file that reads the json of the movie tree. 
-- tree_logic.py: the stand alone .py file that explains the tree logic of this system.</br>
+- Recommending.py: the .py file that reads the json of the movie tree;
+- tree_logic.py: the stand alone .py file that explains the tree logic of this system.
     
     In templates repository:
     - movie_recommendation.html: the html template for the front page of the movie recommendation system;
