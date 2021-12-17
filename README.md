@@ -14,7 +14,7 @@ The system will ask the users a hierarchical set of questions about what their p
 - How long do you want for the movie to last? 
 
 <b>Instructions: </b> </br>
-The inputs of movie preferences are sensibily designed on the web page, and users can leave blank for the fields that they have no preferences for. After the user inputs their preferences, they can click on the "submit" button. They can also click the "reset" button to input again. The system would then retrieve the link of a recommended movie that meets the users' needs the best, and provide the users with the one piece of most popular movie reviews also from IMDb so that they could be informed of the actual feedback and make further decisions based off of that. Users can always click on "review" to change to another piece of review. On most occasions, there are 25 pieces of reviews for a movie at most. However, IMDb do not provide the reviews for some of the movies within their "Top 1000 Most Popular Movies" list, and the system would output a "Sorry! There's no review for this movie!"
+The inputs of movie preferences are sensibily designed on the web page, and users can leave blank for the fields that they have no preferences for. After the user inputs their preferences, they can click on the "submit" button. They can also click the "reset" button to input again. The system would then retrieve the link of a recommended movie that meets the users' needs the best, and provide the users with the one piece of most popular movie reviews also from IMDb so that they could be informed of the actual feedback and make further decisions based off of that. Users can always click on "review" to change to another piece of review. On most occasions, there are 25 pieces of reviews for a movie at most. However, IMDb do not provide the reviews for some of the movies within their "Top 1000 Most Popular Movies" list, and the system would output a "Sorry! There's no review for this movie!".
 
 <b>Perferences Specifications:</b> </br>
 - Certificate: Users are given a list of selections for all certificate types for all 1000 movies. 
@@ -29,7 +29,7 @@ The inputs of movie preferences are sensibily designed on the web page, and user
 The basic data structure in this system is a tree. The 1000 pieces of movie data from IMDb could be organized into a tree based on whether the film fits the users' requirements. Following the order of the hierarchical set of questions, the movie data which doesn't meet the users' preferences would be abondoned. However, if there's no movie that exactly fit the users' needs, the system would return to the last node of the tree which has values to retrieve a movie that fits the user' needs.
 
 <b>Packages: </b></br>
-The python packages for this system to work besides the built in packages include requests, flask, BeautifulSoup, webbrowser, pandas, etc.
+The python packages for this system to work besides the built in packages include requests, flask, BeautifulSoup, pandas, etc. I used BeautifulSoup to grape 1000 movies' information, and used requests to access movie reviews data via API Keys (Here are some keys that I've applied: 'k_nm384tne', 'k_2mhyidz7', 'k_z95hbpgk'). 
 
 <b>Codes: </b> </br>
 In data-source repository: 
