@@ -42,7 +42,7 @@ In data-source repository:
  * main.py: the main .py file ruuning the movie recommendation system;
  * Recommending.py: the .py file that reads the json of the movie tree. 
  * tree_logic.py: the stand alone .py file that explains the tree logic of this system.</br>
-   * In templates repository:
+    In templates repository:
     * movie_recommendation.html: the html template for the front page of the movie recommendation system;
     * movie_response.html: the html template for the result page of the movie recommendation.
   
