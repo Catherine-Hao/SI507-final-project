@@ -35,4 +35,4 @@ Tree = \
             ("{movie_genre}", None, None)),
         ("{movie_certificate}", None, None))
 
-printTree(Tree, prefix = '', bend = '', answer = ''):
+printTree(Tree, prefix = '', bend = '', answer = '')
