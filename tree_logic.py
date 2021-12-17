@@ -34,3 +34,5 @@ Tree = \
                 ("{movie_year}", None, None)),
             ("{movie_genre}", None, None)),
         ("{movie_certificate}", None, None))
+
+printTree(Tree, prefix = '', bend = '', answer = ''):
