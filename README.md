@@ -36,12 +36,12 @@ In data-source repository:
 - data_source.py: to implement data scraping for IMDb movies and accessing data using API Key for IMDb reviews;
 - movies.csv: the .csv file storing the [IMDB movies](https://www.imdb.com/search/title/?groups=top_1000&ref_=adv_prv) data;
 - movies.json: the .json file storing the [IMDB movies](https://www.imdb.com/search/title/?groups=top_1000&ref_=adv_prv) data;
-- reviews_example.json: an example of the .json file storing the [IMDB reviews](https://imdb-api.com/en/API/Reviews/k_nm384tne/tt1160419) for Dune. </br></br>
+- reviews_example.json: an example of the .json file storing the [IMDB reviews](https://imdb-api.com/en/API/Reviews/k_nm384tne/tt1160419) for Dune. </br>
+
 In data-structure repository: 
 - main.py: the main .py file ruuning the movie recommendation system;
 - Recommending.py: the .py file that reads the json of the movie tree;
-- tree_logic.py: the stand alone .py file that explains the tree logic of this system.
-    
+- tree_logic.py: the stand alone .py file that explains the tree logic of this system.</br>
     In templates repository:
     - movie_recommendation.html: the html template for the front page of the movie recommendation system;
     - movie_response.html: the html template for the result page of the movie recommendation.
