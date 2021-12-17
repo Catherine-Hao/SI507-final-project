@@ -2,7 +2,7 @@
 
 ### Catherine Hao  |  haorlin@umich.edu
 
-Welcome to Movie Recommendation System! Here we recommend you a movie you want from IMDb Top 1000 Movies, and its reviews as well! Have fun! You can check the [demo](https://youtu.be/m7d1o3C2U7o) for further information.
+Welcome to Movie Recommendation System! Here we recommend you a movie you want from [IMDb Top 1000]((https://www.imdb.com/search/title/?groups=top_1000&ref_=adv_prv)) Movies, and its reviews [(example)](https://www.imdb.com/review/rw2347532/) as well! Have fun! You can check the [demo](https://youtu.be/m7d1o3C2U7o) for further information.
 
 The system will ask the users a hierarchical set of questions about what their preferences are, like:
 - What type of certificate do you want for the movie, such as PG-13, R, M?
