@@ -1,4 +1,4 @@
-## **SI507 Final Project Submission**
+## **SI507 Final Project**
 
 ### Catherine Hao  |  haorlin@umich.edu
 
