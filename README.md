@@ -26,7 +26,7 @@ The inputs of movie preferences are sensibily designed on the web page, and user
 - Runtime: Users can input the first blank representing for the shortest runtime while the second blank for the longest runtime. If both blanks have inputs, the system would automatically recognize the smaller number of the two as the shortest runtime and the other one as the longest runtime. The unit of this input is minute.
 
 <b>Data Structure: </b> </br> 
-The basic data structure in this system is a tree. The 1000 pieces of movie data from IMDb could be organized into a tree based on whether the film fits the users' requirements. 
+The basic data structure in this system is a tree. The 1000 pieces of movie data from IMDb could be organized into a tree based on whether the film fits the users' requirements. Following the order of the hierarchical set of questions, the movie data which doesn't meet the users' preferences would be abondoned. However, if there's no movie that exactly fit the users' needs, the system would return to the last node of the tree which has values to retrieve a movie that fits the user' needs.
 
 <b>Packages: </b></br>
 The python packages for this system to work besides the built in packages include requests, flask, BeautifulSoup, webbrowser, pandas, etc.
