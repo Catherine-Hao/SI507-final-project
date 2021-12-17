@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="utf8"/>
+    <title>Here's a movie!</title>
+</head>
+<body>
+    <h1>Thank you!</h1>
+    <p> Here's the movie that I recommend for you: </br>
+        <a href={{url}}>{{title}}</a>
+    </p>
+<!--    <p> Here's the reviews of the movie for you: </br>-->
+<!--        <a href={{review_url}}>Reviews</a>-->
+<!--        </p>-->
+<!--        <p>-->
+<!--            <b>{{retitle}} </b> </br>-->
+<!--            </p>-->
+<!--        <p>-->
+<!--            {{recontent}}-->
+<!--            </p>-->
+    <b>
+    <div id="title" >
+        </div>
+    </b>
+
+    <p>
+    <div id="content" >
+        </div>
+    </p>
+
+    <script>
+<!--    var r_num = Number('{{renum}}')-->
+<!---->
+<!--    var r_recontents = ['{{ review_contents[0] }}', '{{ review_contents[1] }}', '{{ review_contents[2] }}','{{ review_contents[3]}}','{{ review_contents[4]}}','{{ review_contents[5]}}','{{ review_contents[6]}}','{{ review_contents[7]}}','{{ review_contents[8]}}','{{ review_contents[9] }}',];-->
+
+    var r_recontents = ['{{ review_contents[0] }}'];
+    {% for i in range(1,renum) %}
+        r_recontents.push( '{{ review_contents[i] }}' );
+    {% endfor %}
+
+<!--    var r_retitles = ['{{ review_titles[0] }}', '{{ review_titles[1] }}', '{{ review_titles[2] }}','{{ review_titles[3] }}','{{ review_titles[4] }}','{{ review_titles[5]}}','{{ review_titles[6] }}','{{ review_titles[7]}}','{{ review_titles[8]}}','{{ review_titles[9]}}',];-->
+
+    var r_retitles = ['{{ review_titles[0] }}'];
+    {% for i in range(1,renum) %}
+        r_retitles.push( '{{ review_titles[i] }}' );
+    {% endfor %}
+
+<!--    function myRandom() {-->
+<!--        const random_number = Math.floor(Math.random() * (r_retitles.length));-->
+<!--        return random_number;-->
+<!--    }-->
+    function myTitle() {
+        var random_number = Math.floor(Math.random() * (r_retitles.length));
+        document.getElementById("title").innerHTML = r_retitles[random_number];
+        document.getElementById("content").innerHTML = r_recontents[random_number];
+<!--        document.getElementById("content").innerHTML = r_recontents.length;-->
+<!--        document.getElementById("content_test").innerHTML = r_recontents[1];-->
+    }
+    </script>
+    <p>
+    <button onclick="myTitle()">Review</button>
+    </p>
+
+</body>
+</html>
